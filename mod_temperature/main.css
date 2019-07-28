@@ -1,0 +1,13 @@
+.mod-temperature {
+	
+}
+.mod-temperature h4 {
+	text-align:center;
+	color: #38f;
+}
+
+.mod-temperature .rowInfo {
+	background: #ff0;
+	margin: 5px 5px;
+	padding: 5px;
+}
