@@ -7,7 +7,7 @@ jQuery(document).ready(function(){
 		if ($f.length) {
 			$f.fadeOut(1000, function(){ run();});
 		} else {
-			alert('Σαν τα Frameworks τίποτα :P -- konapaz --');
+			alert('--');
 		}
 	}
 	
