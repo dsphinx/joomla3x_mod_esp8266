@@ -226,6 +226,8 @@ void sendDataToServer(float temp1, float temp2, String Host = "", int Port = 80,
       uri = Proto + Host + ":" + Port + Script + "?Temperature=" + (String) temp1 + "&Humidity=" + temp2 + "&esp8266ID=" + String(ESP.getChipId()) +
             "&sensorName=" + (String) WiFi_ClientName + "&Description=" + (String) Wifi_Desc + "&ver=" +
             (String) dsphinXVersion;
+      uri.replace(" ","%20");
+
       show(uri);
 
       /*
